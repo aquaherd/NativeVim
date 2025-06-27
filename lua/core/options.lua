@@ -1,5 +1,6 @@
 -- general options
-vim.o.completeopt = "menu,menuone,popup,fuzzy" -- modern completion menu
+-- vim.o.completeopt = "menu,menuone,popup,fuzzy" -- modern completion menu
+vim.o.completeopt = "noselect,menu,menuone,noinsert,popup" -- modern completion menu
 
 vim.o.foldenable = true   -- enable fold
 vim.o.foldlevel = 99      -- start editing with all folds opened
@@ -14,6 +15,7 @@ vim.o.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 
 
 vim.o.termguicolors = true  -- enable rgb colors
+vim.cmd('colorscheme draculish')
 
 vim.o.cursorline = true     -- enable cursor line
 
