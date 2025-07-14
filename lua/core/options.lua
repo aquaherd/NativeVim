@@ -15,8 +15,7 @@ vim.o.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 
 
 vim.o.termguicolors = true  -- enable rgb colors
-vim.cmd('colorscheme draculish')
-
+vim.opt.guifont = "IosevkaTerm Nerd Font Mono:h15"
 vim.o.cursorline = true     -- enable cursor line
 
 vim.o.number = true         -- enable line number
