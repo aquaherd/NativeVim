@@ -18,4 +18,4 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 -- enable configured language servers
-vim.lsp.enable({'clangd', 'lua_ls', 'bashls'})
+vim.lsp.enable({'clangd', 'lua_ls', 'bashls', 'pyright'})

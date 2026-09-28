@@ -1,4 +1,5 @@
 -- OldFiles user command
+--
 vim.api.nvim_create_user_command(
     'OldFiles',
     require("util").populate_qf_with_positions,

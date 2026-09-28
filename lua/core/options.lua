@@ -1,4 +1,5 @@
 -- general options
+vim.opt.shortmess:append("I") -- disable intro/splash screen
 -- vim.o.completeopt = "menu,menuone,popup,fuzzy" -- modern completion menu
 vim.o.completeopt = "noselect,menu,menuone,noinsert,popup" -- modern completion menu
 
